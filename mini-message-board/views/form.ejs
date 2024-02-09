@@ -14,15 +14,14 @@
     </h1>
     <form method="POST" action="/new" >
         <div class="input-div">
-            <label for="name">Name:</label>
-            <input name="name" type="text">
+            <label for="name">User:</label>
+            <input name="name" type="text" style="width: 200px;">
         </div>
-        
         <div class="input-div">
             <label for="message">Message:</label>
-            <input name="message" type="text">
+            <textarea name="message" style="width: 300px; height: 100px;"></textarea>
         </div>
-        <div>
+        <div class="submit-container-div">
             <a href="/"><button>Submit</button></a>
         </div>
     </form>
